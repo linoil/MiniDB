@@ -6,7 +6,7 @@ MiniDB is an interactive debugger designed for debugging 64-bit `x86-64` assembl
 
 You can run the following command to inspect its properties:
 ```
-file <program_name>
+$ file <program_name>
 ```
 
 ## Usage
@@ -20,12 +20,12 @@ $ ./mdb
 ```
 
 ## Supported Commands
-- Step Instruction
-- Continue Execution
-- Show Registers Info
-- Breakpoint: Set, Show Info, and Delete
-- Patch Memory
-- System Call
+- [Step Instruction](#step-instruction)
+- [Continue Execution](#continue-execution)
+- [Show Registers Info](#show-registers-info)
+- [Breakpoint: Set, Show Info, and Delete](#breakpoint-set-show-info-and-delete)
+- [Patch Memory](#patch-memory)
+- [System Call](#system-call)
 
 ### Step Instruction
 Execute a single assembly instruction.
